@@ -1,4 +1,6 @@
 streamlit
+# Python 3.13 compatibility: streamlit still imports stdlib imghdr.
+standard-imghdr
 # Utilitites 
 numpy
 pandas
