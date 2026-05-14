@@ -1,13 +1,18 @@
 .env
-.vscode
+.vscode/
 
 *.pyc
 .DS_Store
-__pycache__
+__pycache__/
 
+# Virtual environments
+.venv/
 venv/
 
+# Streamlit secrets (set these in Streamlit Cloud's UI instead)
+.streamlit/secrets.toml
 
-.streamlit/
-
-dist.
+# Build artifacts
+dist/
+build/
+*.egg-info/

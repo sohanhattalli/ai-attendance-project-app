@@ -1,28 +1,27 @@
-streamlit
+# --- Core UI ---
+streamlit>=1.49
 # Python 3.13 compatibility: streamlit still imports stdlib imghdr.
 standard-imghdr
-# Utilitites 
+
+# --- Utilities ---
 numpy
 pandas
 
-# FACE RECOGNITION
+# --- Face Recognition ---
 scikit-learn
 dlib-bin
 git+https://github.com/ageitgey/face_recognition_models
+# face_recognition_models has a legacy setup.py that fails on setuptools >= 70
 setuptools<70.0.0
 
-
+# --- Backend ---
 supabase
 bcrypt
 
-
-
+# --- QR codes ---
 segno
 pillow
 
-
-
+# --- Voice attendance ---
 librosa
 resemblyzer
-
-streamlit
