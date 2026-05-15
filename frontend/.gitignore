@@ -9,6 +9,9 @@ out/
 dist/
 build/
 
+# Vercel (generated at build: cp -r static public/static)
+public/static/
+
 # Vercel
 .vercel/
 
