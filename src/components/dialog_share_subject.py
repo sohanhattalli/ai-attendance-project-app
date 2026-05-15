@@ -4,7 +4,7 @@ import segno
 import io
 
 
-APP_DOMAIN = "https://snapclass-main.streamlit.app"
+APP_DOMAIN = "https://snapclass-maino.streamlit.app"
 
 
 @st.dialog("Share Class Link")
